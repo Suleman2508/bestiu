@@ -8,11 +8,11 @@ class Product {
     }
 
     double calculateDiscount() {
-        return this.price * 0.10;  // Apply 10% discount
+        return this.price * 0.10; 
     }
 
     double calculateFinalPrice() {
-        return this.price - this.calculateDiscount();  // Call the discount method using 'this'
+        return this.price - this.calculateDiscount(); 
     }
 }
 

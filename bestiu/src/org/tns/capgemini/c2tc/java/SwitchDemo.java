@@ -3,45 +3,46 @@ package org.tns.capgemini.c2tc.java;
 public class SwitchDemo {
 
 	public static void main(String[] args) {
-String day="tuesday";
-		
-		switch(day)
-		{
-		case "monday":
-		case "Monday":
-		   System.out.println("Attend the meeting");
-		   break;
-		   
-		case "tuesday":
-		case "Tuesday":
-		   System.out.println("Working on the Project");
-		   break;
-		   
-		case "Wednesday":
-		case "wednesday":
-		   System.out.println("Submit the progress");
-		   break;
-		   
-		case "thursday":
-		case "Thursday":
-		   System.out.println("Client call and Review");
-		   break;
-		   
-		case "friday":
-		case "Friday":
-		   System.out.println("Wrap up the weekly tasks");
-		   break;
-		   
-		case "saturday":
-		case "Saturday":
-		case "sunday":
-		case "Sunday":
-		   System.out.println("Enjoy the Weekend");
-		   break;
-		   
-		default:
-			System.out.println("Invalid day");
+			String day="funday";
 			
-	}
+			switch(day)
+			{
+			case "Monday":
+			case "monday":	
+			System.out.println("Attend the meeting");
+			break;
+			
+			case "Tuesday":
+			case "tuesday":
+			System.out.println("work on project task");
+			break;
+			
+			case "wednesday":
+			case "Wednesday":
+			System.out.println("submit the progress report");
+			break;
+				
+			case "Thursday":
+			case "thursday":
+			System.out.println("client call and review");
+			break;
+				
+			case "Friday":
+			case "friday":
+			System.out.println("wrap up weekly task");	
+			break;
+			
+			case "Saturday":
+			case "saturday":
+			case "Sunday":
+			case "sunday":	
+			System.out.println("enjoy the weekend");
+			break;
+		
+			default :
+				System.out.println("invalid day");
+			}
 
-}
+		}
+
+	}
